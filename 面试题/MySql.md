@@ -1,3 +1,12 @@
+### 三大范式
+
+第一范式：保证列的原子性，保证列不可再分。
+
+第二范式：唯一性 ；一个表只说明一个事物;有主键且非主键依赖主键；（限制多对多的关系，建立一个关联表，通过外键和联合主键来关联两张表）
+
+第三范式：每列都与主键有直接关系，不存在传递依赖;（限制一对多的关系，在从表中建立一个外键，通过外键来引用主表的信息）
+
+
 ### MySQL引擎及区别
 
 ![img](https://mmbiz.qpic.cn/mmbiz_png/A66lAAJ1DX3KfyIDll94PMiajRtRD2WpKPTTvySUHAeG9dS4GlWOC3CvTXegKLA85R8sJombbn98mLhHN5UbVibQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
